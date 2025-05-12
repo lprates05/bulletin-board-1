@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  get("/",{:controller=> "home", :action=>"start"})
+  get("/", { :controller => "boards", :action => "create" })
   
   #------------------------------
 
